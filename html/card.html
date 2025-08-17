@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Card Details  </title>
+        <link rel="stylesheet" href="../styles/card.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header" id = "header">
+
+            <a href="#"><img src="../uploads/logo.png" width="100px" height="100px"></a>
+                
+            <nav class="navbar">
+                <a href="home.html"><i class='bx bxs-home'></i>Home</a>
+        
+                <a href="login.html"><i class='bx bxs-login'></i>Login</a>
+                <a href="store.html"><i class='bx bxs-store'></i>Store</a>
+                <a href="services.html"><i class='bx bxs-dog'></i>Our services</a>
+                <a href="pet registration.html"><i class='bx bxs-aboutpet'></i>About Pet</a>
+                <a href="aboutus.html"><i class='bx bxs-whyus'></i>Why us</a>
+                <a href = "accountsettings.html"><i class = 'bx bxs-settings'></i>Settings</a>
+    
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </section>
+        
+        <div class="container">
+            <h1>Confirm Your Payment</h1>
+            <div class="first-row">
+                <div class="Holder">
+                    <h3>Holder</h3>
+                    <div class="input-field">
+                        <input type="text" placeholder="Full Name">
+                    </div>
+                </div>
+                <div class="cvv">
+                    <h3>CVV</h3>
+                    <div class="input-field">
+                        <input type="password" placeholder="3 Digit Number">
+                    </div>
+                </div>
+            </div>
+            <div class="second-row">
+                <div class="card-number">
+                    <h3>Card Number</h3>
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter Card Number">
+                    </div>
+                </div>
+            </div>
+            <div class="third-row">
+                <div class="expire-date">
+                    <h3>Expire Date</h3>
+                    <div class="selection">
+                        <div class="date">
+                            <select name="months" id="months">
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="Mar">Mar</option>
+                                <option value="Apr">Apr</option>
+                                <option value="May">May</option>
+                                <option value="Jun">Jun</option>
+                                <option value="Jul">Jul</option>
+                                <option value="Aug">Aug</option>
+                                <option value="Sep">Sep</option>
+                                <option value="Oct">Oct</option>
+                                <option value="Nov">Nov</option>
+                                <option value="Dec">Dec</option> 
+                            </select>
+                            <select name="years" id="years">
+                                <option value="2030">2030</option>
+                                <option value="2029">2029</option>
+                                <option value="2028">2028</option>
+                                <option value="2027">2027</option>
+                                <option value="2026">2026</option>
+                                <option value="2025">2025</option>
+                            </select>
+                        </div>
+                        <div class="cards">
+                            <img src="../uploads/mst.jpeg" alt="">
+                            <img src="../uploads/vis.jpeg" alt="">
+                            <img src="../uploads/pp.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+                    <h1>Thank You</h1>
+                    <p>Dear Customer, your card details have been stored</p>
+                </div>
+            </div>
+            <button onclick="togglePopup()">Confirm</button>
+        </div>
+    </body>
+    <script src = "../js/card.js"></script>
+</html>
+

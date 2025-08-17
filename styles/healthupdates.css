@@ -1,0 +1,224 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* remove img background (not working, pls check) */
+.header > a > img {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    width: auto;
+    /* object-fit: cover */
+}
+
+.header > .logo {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-left: 2rem;
+    color: var(--black);
+}
+
+.header > .navbar > a {
+    font-size: 1rem;
+    margin-left: 2.8rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.header > .navbar > a:hover {
+    color:purple;
+}
+
+#menu-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+}
+.col-12{
+    
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-decoration: none;
+    width: 1500px;
+    margin-top: 10px;
+    height: 50px;
+
+}       
+.nav1{
+height:60px;
+}        
+   
+
+
+
+
+
+.nav2{
+padding-bottom: 20px;
+text-decoration: none;
+font-size: 20px;
+color:rgb(87, 87, 239);
+margin-left: 10px;
+box-sizing: border-box;
+transition: all 0.3s;
+
+
+
+
+}
+#n1{
+border: 2px black;
+border-color: #000;
+padding: 5px;
+border-radius: 12px;
+vertical-align: -15px;
+}
+#n2{
+border: 2px black;
+border-color: #000;
+padding: 5px;
+border-radius: 12px;
+vertical-align: -15px;
+
+}
+#n3{
+border: 2px black;
+border-color: #000;
+padding: 5px;
+border-radius: 12px;
+vertical-align: -15px;
+
+}
+#n1:hover{
+color: darkblue;
+}
+#n2:hover{
+color: darkblue;
+}
+#n3:hover{
+color: darkblue;
+}
+
+
+
+header{
+    width: 100vw;
+    min-height: 120vh;
+    background-image: url(pup2.jpeg.webp);
+    background-position: center;
+    background-size: cover;
+    
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin-top: 100px;
+    background:rgba(0,0,0,0.25);
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
+    box-shadow: insert -2px 2px 2px white;
+    margin-left: 10px;
+    padding-left: 10px;
+    
+}  
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+form{
+    padding: 1rem;
+    color: black;
+}
+h3{
+    margin-top: 1rem;
+    color: darkslategrey;
+    font-size: 30px;
+}
+.type{
+    color: black;
+}
+.cat-vac{
+    color: black;
+}
+#date{
+    width: 400px;
+}
+form input[type="text"]{
+    width: 100%;
+    color: grey;
+    padding: 0.5rem 0.7rem;
+    margin: 0.5rem 0;
+    outline: none;
+    width: 500px;
+}
+form input[type=submit]:hover{
+    background-color: dodgerblue;
+}
+form input[type=proceed]{
+    width: 100%;
+    padding: 1.0rem 1.0rem;
+    background-color: blueviolet;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: double;
+    font-size: 18px;
+    transition: 0.5s;
+}    
+
+form input[type=proceed]:hover{
+    background-color: dodgerblue;
+}
+.docs{
+    color: black;
+    padding: auto;
+}
+.btn{
+    border :none;
+    width: 164px;
+    height:51px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 40px;
+    transition:all 0.3s;
+    color: black;
+    background-color: beige;
+    font-size: 15px;
+    
+
+
+}
+
+.btn:hover{
+    transform:scale(1.15);
+    background:rgb(207, 152, 84);
+}
+

@@ -1,0 +1,257 @@
+[09-Jun-2023 22:42:50 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 35
+[09-Jun-2023 22:44:10 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 35
+[09-Jun-2023 22:44:31 America/Chicago] PHP Parse error:  syntax error, unexpected '$check' (T_VARIABLE), expecting ';' or ',' in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 35
+[09-Jun-2023 22:44:49 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 35
+[09-Jun-2023 22:45:16 America/Chicago] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 35
+[10-Jun-2023 22:47:38 America/Chicago] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 69
+[10-Jun-2023 22:48:13 America/Chicago] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 72
+[10-Jun-2023 22:48:50 America/Chicago] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 72
+[10-Jun-2023 22:49:16 America/Chicago] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 74
+[10-Jun-2023 22:49:20 America/Chicago] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 74
+[10-Jun-2023 22:50:14 America/Chicago] PHP Parse error:  syntax error, unexpected '$servername' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 74
+[10-Jun-2023 22:51:06 America/Chicago] PHP Notice:  Undefined variable: database in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 80
+[10-Jun-2023 22:51:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on bool in /home1/iweblk/petdb.sachith.me/accountsettings.php:88
+Stack trace:
+#0 {main}
+  thrown in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 88
+[10-Jun-2023 22:57:41 America/Chicago] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 301
+[10-Jun-2023 22:57:43 America/Chicago] PHP Parse error:  syntax error, unexpected '$image' (T_VARIABLE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 301
+[10-Jun-2023 23:00:37 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 303
+[10-Jun-2023 23:00:37 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:00:37 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 307
+[10-Jun-2023 23:01:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'Member' (T_STRING), expecting ';' or ',' in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:01:46 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 303
+[10-Jun-2023 23:01:46 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:01:46 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 307
+[10-Jun-2023 23:01:51 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 303
+[10-Jun-2023 23:01:51 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:01:51 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 307
+[10-Jun-2023 23:02:09 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 303
+[10-Jun-2023 23:02:09 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:02:09 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 307
+[10-Jun-2023 23:03:26 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 303
+[10-Jun-2023 23:03:26 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:03:26 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 307
+[10-Jun-2023 23:09:27 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:09:27 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:09:27 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 308
+[10-Jun-2023 23:09:59 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:09:59 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:09:59 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 308
+[10-Jun-2023 23:10:40 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:10:40 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:10:40 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 308
+[10-Jun-2023 23:10:48 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:10:48 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:10:48 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 308
+[10-Jun-2023 23:11:46 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:11:46 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:11:46 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 308
+[10-Jun-2023 23:12:01 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:12:01 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:12:01 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 308
+[10-Jun-2023 23:13:25 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:13:25 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:13:25 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 309
+[10-Jun-2023 23:14:09 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:14:09 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:14:09 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:14:09 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 325
+[10-Jun-2023 23:14:09 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 332
+[10-Jun-2023 23:14:37 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:14:37 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:14:37 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:14:37 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 325
+[10-Jun-2023 23:14:37 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 332
+[10-Jun-2023 23:15:58 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:15:58 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:15:58 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 309
+[10-Jun-2023 23:16:18 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:16:18 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:16:18 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 309
+[10-Jun-2023 23:16:55 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:16:55 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:16:55 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:16:55 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 324
+[10-Jun-2023 23:16:55 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:17:35 America/Chicago] PHP Parse error:  syntax error, unexpected '')";' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 327
+[10-Jun-2023 23:18:19 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:18:19 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:18:19 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:18:19 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 324
+[10-Jun-2023 23:18:19 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 333
+[10-Jun-2023 23:19:15 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:19:15 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:19:15 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:19:15 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 324
+[10-Jun-2023 23:19:15 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 333
+[10-Jun-2023 23:19:44 America/Chicago] PHP Notice:  Undefined index: $address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 304
+[10-Jun-2023 23:19:44 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:19:44 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:19:44 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 324
+[10-Jun-2023 23:19:44 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 333
+[10-Jun-2023 23:20:41 America/Chicago] PHP Notice:  Undefined variable: destination in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 305
+[10-Jun-2023 23:20:41 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:20:41 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 324
+[10-Jun-2023 23:20:41 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 333
+[10-Jun-2023 23:22:58 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 323
+[10-Jun-2023 23:22:58 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 326
+[10-Jun-2023 23:22:58 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 335
+[10-Jun-2023 23:23:28 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 318
+[10-Jun-2023 23:23:28 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:23:28 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 329
+[10-Jun-2023 23:24:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'Data' (T_STRING), expecting ';' or ',' in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:24:54 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:24:54 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 323
+[10-Jun-2023 23:24:54 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:26:41 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 318
+[10-Jun-2023 23:27:19 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 318
+[10-Jun-2023 23:27:51 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 323
+[10-Jun-2023 23:30:30 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 319
+[10-Jun-2023 23:30:30 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 321
+[10-Jun-2023 23:30:30 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 324
+[10-Jun-2023 23:30:30 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 328
+[10-Jun-2023 23:30:30 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:30:30 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 339
+[10-Jun-2023 23:32:15 America/Chicago] PHP Notice:  Undefined variable: first_name in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 316
+[10-Jun-2023 23:32:15 America/Chicago] PHP Notice:  Undefined variable: last_name in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 316
+[10-Jun-2023 23:32:15 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:32:15 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 326
+[10-Jun-2023 23:32:15 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:32:46 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:32:46 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 326
+[10-Jun-2023 23:32:46 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:33:42 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:33:42 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 326
+[10-Jun-2023 23:33:42 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:34:20 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 318
+[10-Jun-2023 23:34:20 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:34:20 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 326
+[10-Jun-2023 23:34:20 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:34:48 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 318
+[10-Jun-2023 23:34:48 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 320
+[10-Jun-2023 23:34:48 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 326
+[10-Jun-2023 23:34:48 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:35:36 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 318
+[10-Jun-2023 23:37:15 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 323
+[10-Jun-2023 23:37:56 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'iweblk_petdbuser'@'localhost' (using password: YES) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 323
+[10-Jun-2023 23:39:21 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 325
+[10-Jun-2023 23:39:21 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 331
+[10-Jun-2023 23:39:21 America/Chicago] PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 336
+[10-Jun-2023 23:58:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 311
+[10-Jun-2023 23:59:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 312
+[10-Jun-2023 23:59:43 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 312
+[11-Jun-2023 00:00:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 303
+[11-Jun-2023 00:00:56 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 310
+[11-Jun-2023 00:01:10 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 347
+[11-Jun-2023 00:01:44 America/Chicago] PHP Notice:  Undefined index: imageInput in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 287
+[11-Jun-2023 00:01:44 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 288
+[11-Jun-2023 00:01:44 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 289
+[11-Jun-2023 00:01:44 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 290
+[11-Jun-2023 00:01:44 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 291
+[11-Jun-2023 00:02:16 America/Chicago] PHP Notice:  Undefined index: imageInput in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 287
+[11-Jun-2023 00:02:16 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 288
+[11-Jun-2023 00:02:16 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 289
+[11-Jun-2023 00:02:16 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 290
+[11-Jun-2023 00:02:16 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 291
+[11-Jun-2023 00:02:45 America/Chicago] PHP Notice:  Undefined index: imageInput in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 287
+[11-Jun-2023 00:02:45 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 288
+[11-Jun-2023 00:02:45 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 289
+[11-Jun-2023 00:02:45 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 290
+[11-Jun-2023 00:02:45 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 291
+[11-Jun-2023 00:03:32 America/Chicago] PHP Notice:  Undefined index: imageInput in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 287
+[11-Jun-2023 00:03:32 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 288
+[11-Jun-2023 00:03:32 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 289
+[11-Jun-2023 00:03:32 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 290
+[11-Jun-2023 00:03:32 America/Chicago] PHP Notice:  Trying to access array offset on value of type null in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 291
+[11-Jun-2023 00:09:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/accountsettings.php:1) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 333
+[11-Jun-2023 00:10:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/accountsettings.php:1) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 333
+[11-Jun-2023 00:26:37 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 54
+[11-Jun-2023 00:26:37 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/accountsettings.php:1) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 66
+[11-Jun-2023 00:26:47 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 54
+[11-Jun-2023 00:26:47 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/accountsettings.php:1) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 66
+[11-Jun-2023 00:27:39 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 54
+[11-Jun-2023 00:27:39 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 151
+[11-Jun-2023 00:27:39 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 156
+[11-Jun-2023 00:27:39 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 161
+[11-Jun-2023 00:27:39 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 168
+[11-Jun-2023 00:27:39 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 181
+[11-Jun-2023 00:27:39 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 186
+[11-Jun-2023 00:28:00 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 54
+[11-Jun-2023 00:28:00 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 151
+[11-Jun-2023 00:28:00 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 156
+[11-Jun-2023 00:28:00 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 161
+[11-Jun-2023 00:28:00 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 168
+[11-Jun-2023 00:28:00 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 181
+[11-Jun-2023 00:28:00 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 186
+[11-Jun-2023 00:28:01 America/Chicago] PHP Warning:  session_start(): Cannot start session when headers already sent in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 54
+[11-Jun-2023 00:28:01 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 151
+[11-Jun-2023 00:28:01 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 156
+[11-Jun-2023 00:28:01 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 161
+[11-Jun-2023 00:28:01 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 168
+[11-Jun-2023 00:28:01 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 181
+[11-Jun-2023 00:28:01 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 186
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 151
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 156
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 161
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 168
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 181
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 186
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 151
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 156
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 161
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 168
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 181
+[11-Jun-2023 00:28:24 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 186
+[11-Jun-2023 00:33:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/login.php:34) in /home1/iweblk/petdb.sachith.me/login.php on line 39
+[11-Jun-2023 00:34:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/login.php:34) in /home1/iweblk/petdb.sachith.me/login.php on line 39
+[11-Jun-2023 00:34:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ';' or ',' in /home1/iweblk/petdb.sachith.me/login.php on line 38
+[11-Jun-2023 00:36:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 61
+[11-Jun-2023 00:36:35 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 61
+[11-Jun-2023 00:36:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'var' (T_VAR), expecting end of file in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 61
+[11-Jun-2023 00:38:28 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 153
+[11-Jun-2023 00:38:28 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 158
+[11-Jun-2023 00:38:28 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 163
+[11-Jun-2023 00:38:28 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 170
+[11-Jun-2023 00:38:28 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 183
+[11-Jun-2023 00:38:28 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 188
+[11-Jun-2023 00:39:17 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 144
+[11-Jun-2023 00:39:17 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 149
+[11-Jun-2023 00:39:17 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 154
+[11-Jun-2023 00:39:17 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 161
+[11-Jun-2023 00:39:17 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 174
+[11-Jun-2023 00:39:17 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 179
+[11-Jun-2023 00:39:37 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 159
+[11-Jun-2023 00:39:37 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 164
+[11-Jun-2023 00:39:37 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 169
+[11-Jun-2023 00:39:37 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 176
+[11-Jun-2023 00:39:37 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 189
+[11-Jun-2023 00:39:37 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 194
+[11-Jun-2023 00:40:02 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 160
+[11-Jun-2023 00:40:02 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 165
+[11-Jun-2023 00:40:02 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 170
+[11-Jun-2023 00:40:02 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 177
+[11-Jun-2023 00:40:02 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 190
+[11-Jun-2023 00:40:02 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 195
+[11-Jun-2023 00:40:25 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 160
+[11-Jun-2023 00:40:25 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 165
+[11-Jun-2023 00:40:25 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 170
+[11-Jun-2023 00:40:25 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 177
+[11-Jun-2023 00:40:25 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 190
+[11-Jun-2023 00:40:25 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 195
+[11-Jun-2023 00:40:28 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 160
+[11-Jun-2023 00:40:28 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 165
+[11-Jun-2023 00:40:28 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 170
+[11-Jun-2023 00:40:28 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 177
+[11-Jun-2023 00:40:28 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 190
+[11-Jun-2023 00:40:28 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 195
+[11-Jun-2023 00:41:00 America/Chicago] PHP Notice:  Undefined variable: firstName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 160
+[11-Jun-2023 00:41:00 America/Chicago] PHP Notice:  Undefined variable: lastName in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 165
+[11-Jun-2023 00:41:00 America/Chicago] PHP Notice:  Undefined variable: email in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 170
+[11-Jun-2023 00:41:00 America/Chicago] PHP Notice:  Undefined variable: address in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 177
+[11-Jun-2023 00:41:00 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 190
+[11-Jun-2023 00:41:00 America/Chicago] PHP Notice:  Undefined variable: password in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 195
+[11-Jun-2023 00:47:38 America/Chicago] PHP Parse error:  syntax error, unexpected 'memberId' (T_STRING), expecting ';' or ',' in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 96
+[11-Jun-2023 01:04:34 America/Chicago] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 373
+[11-Jun-2023 01:04:34 America/Chicago] PHP Warning:  main(): Couldn't fetch mysqli in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 379
+[11-Jun-2023 01:05:57 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/iweblk/petdb.sachith.me/accountsettings.php:1) in /home1/iweblk/petdb.sachith.me/accountsettings.php on line 376

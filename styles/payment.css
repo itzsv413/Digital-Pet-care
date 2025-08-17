@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* remove img background (not working, pls check) */
+.header > a > img {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+    width: auto;
+    /* object-fit: cover */
+}
+
+.header > .logo {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-left: 2rem;
+    color: var(--black);
+}
+
+.header > .navbar > a {
+    font-size: 1rem;
+    margin-left: 2.8rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+.header > .navbar > a:hover {
+    color:purple;
+}
+
+#menu-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+}
+
+
+header{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(pet.jpg);
+    font-size: 1.2rem;
+    
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: url(j.jpg);
+    margin-top: 75px;
+    margin-left: 300px;
+    max-width: 800px;
+    min-height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5rem 1.5rem;
+}  
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+form{
+    padding: 1rem;
+}
+h3{
+    margin-top: 1rem;
+    color: #2c3e50;
+}
+
+button{
+    background-color: blueviolet;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: double;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 100px;
+}
+button:hover{
+    background-color: dodgerblue;
+}
+
+#confirm{
+    width :100px;
+    background-color: blueviolet;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: double;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    text-decoration: none;
+    width: 100px;
+
+}
+
+#confirm:hover{
+    background-color: dodgerblue;
+
+}

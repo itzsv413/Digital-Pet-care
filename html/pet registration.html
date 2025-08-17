@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Pet registration form</title>
+        <meta name = "viewport" content="width=device-width,initial-scale = 1.0"/>
+        <link rel="stylesheet" href="../styles/pet registration .css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    </head>
+    <body>
+
+        <section class="header" id="header">
+
+            <a href="#"><img src="../uploads/logo.jpg" style="width: 100px; height: 100px;" alt="Logo"></a>
+
+            <nav class="navbar">
+                <a href="home.html"><i class='bx bxs-home'></i>Home</a>
+                <a href="login.html"><i class='bx bxs-login'></i>Login</a>
+                <a href="store.html"><i class='bx bxs-store'></i>Store</a>
+                <a href="services.html"><i class='bx bxs-dog'></i>Our services</a>
+                <a href="pet registration.html"><i class='bx bxs-aboutpet'></i>About Pet</a>
+                <a href="aboutus.html"><i class='bx bxs-whyus'></i>Why us</a>
+                <a href = "accountsettings.html"><i class = 'bx bxs-settings'></i>Settings</a>
+
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+
+        </section>
+
+        <div class="col-12">
+            <nav class="nav1" style="background-color: #dbdbdb;">
+                <a id="n1" class="nav2" style="background-color: #bababa;" href="pet registration.html">Pet Registration</a>
+                <a id="n2" class="nav2" style="background-color: #bababa;" href="healthupdates.html">Health Updates</a>
+                <a id="n3" class="nav2" style="background-color: #bababa;" href="training.html">Training Guidlines</a>
+            </nav>
+        </div>
+
+        <div class="wrapper">
+            <div class="inner">
+                <div class="image-holder">
+                    <img src="../uploads/pr.jpeg" alt="Pet Registration Image">
+                </div>
+                <form id="petRegistrationForm" method="POST" action="/api/pet-registration">
+                    <h3>PET registration</h3>
+                    <div class="form-group">
+                        <input name="name" id="name" type="text" placeholder="Name of the pet" class="form-control" required>
+                    </div>
+                     <div class="form-group">
+                        <input name="dob" id="dob" type="date" placeholder="Date of birth" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="gender" id="gender" class="form-control" required>
+                            <option value="" disabled selected>Gender</option> <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <input name="breed" id="breed" type="text" placeholder="Breed" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                         <input name="ownerAddress" id="ownerAddress" type="text" placeholder="Owner Address" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                         <input name="identificationNumber" id="identificationNumber" type="text" placeholder="Identification number" class="form-control" required>
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+
+                <div class="popup" id="popup-1">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="toggleSuccess()">&times;</div>
+                        <h2>Success</h2> <p>Your pet details have been stored successfully!</p> </div>
+                </div>
+                <div class="popup" id="popup-0">
+                    <div class="overlay"></div>
+                    <div class="content">
+                        <div class="close-btn" onclick="toggleFail()">&times;</div>
+                        <h2>Registration Failed</h2> <p id="failMessage">There was an error registering your pet. Please try again.</p> </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../js/petregistration.js"></script>
+
+        </body>
+</html>

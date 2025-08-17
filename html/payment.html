@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Card Details img </title>
+        <link rel="stylesheet" href="../styles/payment.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <section class="header">
+
+                <a href="cart.html"><img src="../uploads/logo.png" width="100px" height="100px"></a>
+                    
+                <nav class="navbar">
+                    <a href="home.html"><i class='bx bxs-home'></i>Home</a>
+            
+                    <a href="login.html"><i class='bx bxs-login'></i>Login</a>
+                    <a href="store.html"><i class='bx bxs-store'></i>Store</a>
+                    <a href="services.html"><i class='bx bxs-dog'></i>Our services</a>
+                    <a href="pet registration.html"><i class='bx bxs-aboutpet'></i>About Pet</a>
+                    <a href="aboutus.html"><i class='bx bxs-whyus'></i>Why us</a>
+                    <a href = "accountsettings.html"><i class = 'bx bxs-settings'></i>Settings</a>
+        
+                </nav>
+                <div id="menu-btn" class="fas fa-bars"></div>
+    
+            </section>
+    
+            <div class="container">
+                <div class="left">
+                    <h3>Payment Details</h3>
+                    <form onsubmit = "return validate()" action = "card.html">
+                        
+                            First name<br>
+                            <input type="text" name=""id = "fname" placeholder="Enter First Name">
+                            
+                        
+                            <br>Last name<br>
+                            <input type="text" name=""id = "lname" placeholder="Enter Last Name">
+                            
+                        
+                            <br>Address<br>
+                            <input type="text" name="" id = "address" placeholder="Enter Address">
+                            
+                        
+                            <br>District<br>
+                            <input type="text" name="" id = "district" placeholder="Enter District">
+                            
+                            
+                            <br>Phone Number<br>
+                            <input type="text" name="" id = "phone_num" placeholder="Enter Phone Number">
+                            
+                        
+                          
+                            <br>Email<br>
+                            <input type="text" id = "email"  name="" placeholder="example@example.com">
+                            
+                        
+                    
+                </div>
+                <div class="right">
+                    <h3>Payment Method</h3>
+                    
+                        
+                        <br>Cash on Delivery 
+                        <input type="radio">
+                        <br>
+                        <input type="submit" id = confirm name="" value="Confirm">
+                        <br><br>
+                        Pay Here
+                        <input type="radio">
+                        <br>
+                        <img src="../uploads/mst.jpeg" alt="" width="50">
+                        <img src="../uploads/vis.jpeg" alt="" width="50">
+                        <img src="../uploads/pp.jpeg" alt="" width="70" height="30">
+                        <br><br>
+                        <button type = "submit">Proceed</button>
+                    </form> 
+                </div>
+            </div>
+        </header>
+    </body>
+    <script src = "../js/payment.js"></script>
+</html>

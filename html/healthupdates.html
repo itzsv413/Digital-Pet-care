@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Health Updates </title>
+        <link rel="stylesheet" href="../styles/healthupdates.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section class="header" id="header">
+            <a href="#"><img src="../uploads/logo.png" style="width: 100px; height: 100px" /></a>
+
+            <nav class="navbar">
+                <a href="home.html"><i class="bx bxs-home"></i>Home</a>
+
+                <a href="login.html"><i class="bx bxs-login"></i>Login</a>
+                <a href="store.html"><i class="bx bxs-store"></i>Store</a>
+                <a href="services.html"><i class="bx bxs-dog"></i>Our services</a>
+                <a href="pet registration.html"><i class="bx bxs-aboutpet"></i>About Pet</a>
+                <a href="aboutus.html"><i class="bx bxs-whyus"></i>Why us</a>
+                <a href="accountsettings.html"><i class="bx bxs-settings"></i>Settings</a>
+            </nav>
+
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </section>
+        <form id="healthUpdateForm">
+            <div class="container">
+                <div class="left">
+                    <h3>Pet Details</h3>
+                    Height
+                    <input type="text" name="height" id="height" placeholder="Height" />
+                    Weight
+                    <input type="text" name="weight" id="weight" placeholder="Weight" />
+                    Temperature
+                    <input type="text" name="temperature" id="temperature" placeholder="Temperature" />
+                    Rate of Respiration
+                    <input
+                        type="text"
+                        name="respiration_rate"
+                        id="respiration_rate"
+                        placeholder="Rate of Respiration"
+                    />
+                    Oestrus
+                    <input type="text" name="oestrus" id="oestrus" placeholder="Oestrus" />
+                    Age of puberty
+                    <input type="text" name="age_of_puberty" id="age_of_puberty" placeholder="Age of puberty" />
+                    <br /><br /><br /><br /><br /><br /><br /><br />
+                </div>
+                <div class="right">
+                    <h3>Vaccination Details</h3>
+                    Date
+                    <input type="date" id="date" name="date" placeholder="Date" />
+
+                    <div class="type">
+                        <div class="dog-vac">
+                            <label for="vaccine" id="vac"><b>Type of vaccine</b></label><br /><br />
+                            <label for="dogs">Dogs:</label> <br />
+                            <select id="dogs" name="dog_type">
+                                <option value="Rottweiler">Rottweiler</option>
+                                <option value="Boxer">Boxer</option>
+                                <option value="Golden retriever">Golden retriever</option>
+                                <option value="Beagle">Beagle</option>
+                                <option value="German shepard">German shepard</option>
+                                <option value="Doberman">Doberman</option>
+                                <option value="Dalmation">Dalmation</option>
+                                <option value="Labrador">Labrador</option>
+                                <option value="Bullmastiff">Bullmastiff</option>
+                                <option value="Great Dane">Great Dane</option>
+                                <option value="Cocker Spaniel">Cocker Spaniel</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <br />
+                            <input type="checkbox" id="dog_vaccine1" name="dog_vaccine1" />
+                            <label id="v1">Distemper</label><br />
+                            <input type="checkbox" id="dog_vaccine2" name="dog_vaccine2" />
+                            <label id="v2">Hepat. CAV 1 - 2</label><br />
+                            <input type="checkbox" id="dog_vaccine3" name="dog_vaccine3" />
+                            <label id="v3">Parvo.,killed</label><br />
+                            <input type="checkbox" id="dog_vaccine4" name="dog_vaccine4" />
+                            <label id="v4">Parvo.,Live</label><br />
+                            <input type="checkbox" id="dog_vaccine5" name="dog_vaccine5" />
+                            <label id="v5">Leptospir</label><br />
+                            <input type="checkbox" id="dog_vaccine6" name="dog_vaccine6" />
+                            <label id="v6">Tracheobr</label><br />
+                            <input type="checkbox" id="dog_vaccine7" name="dog_vaccine7" />
+                            <label id="v7">Rabies</label><br />
+                        </div>
+                        <div class="cat-vac">
+                            <br /> <label for="cats">Cats:</label> <br />
+                            <select id="cats" name="cat_type">
+                                <option value="Persian">Persian</option>
+                                <option value="Himalayan">Himalayan</option>
+                                <option value="Scottish Fold">Scottish Fold</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <br />
+                            <input type="checkbox" id="cat_vaccine1" name="cat_vaccine1" />
+                            <label id="vc1">Panleukop.,Killed</label><br />
+                            <input type="checkbox" id="cat_vaccine2" name="cat_vaccine2" />
+                            <label id="vc2">Panleukop.,Live</label><br />
+                            <input type="checkbox" id="cat_vaccine3" name="cat_vaccine3" />
+                            <label id="vc3">Rhinotrach./Calic.,injec</label><br />
+                            <input type="checkbox" id="cat_vaccine4" name="cat_vaccine4" />
+                            <label id="vc4">Rhinotrach./Calic.,intranasal</label><br />
+                            <input type="checkbox" id="cat_vaccine5" name="cat_vaccine5" />
+                            <label id="vc5">Chlamydia</label><br />
+                            <input type="checkbox" id="cat_vaccine6" name="cat_vaccine6" />
+                            <label id="vc6">FeLV</label><br />
+                            <input type="checkbox" id="cat_vaccine7" name="cat_vaccine7" />
+                            <label id="vc7">Rabies</label><br />
+                            <br /><br />
+                        </div>
+                        <div class="docs">
+                            <label for="label"><b>Label:</b></label>
+                            <input class="btn" type="submit" value="Upload" />
+                            <br /><br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script>
+            document.getElementById('healthUpdateForm').addEventListener('submit', async function(event) {
+                event.preventDefault();
+
+                const formData = {
+                    height: document.getElementById('height').value,
+                    weight: document.getElementById('weight').value,
+                    temperature: document.getElementById('temperature').value,
+                    respirationRate: document.getElementById('respiration_rate').value,
+                    oestrus: document.getElementById('oestrus').value,
+                    ageOfPuberty: document.getElementById('age_of_puberty').value,
+                    vaccinatedDate: document.getElementById('date').value,
+                    dogType: document.getElementById('dogs').value,
+                    catType: document.getElementById('cats').value,
+                    dogVaccine1: document.getElementById('dog_vaccine1').checked,
+                    dogVaccine2: document.getElementById('dog_vaccine2').checked,
+                    dogVaccine3: document.getElementById('dog_vaccine3').checked,
+                    dogVaccine4: document.getElementById('dog_vaccine4').checked,
+                    dogVaccine5: document.getElementById('dog_vaccine5').checked,
+                    dogVaccine6: document.getElementById('dog_vaccine6').checked,
+                    dogVaccine7: document.getElementById('dog_vaccine7').checked,
+                    catVaccine1: document.getElementById('cat_vaccine1').checked,
+                    catVaccine2: document.getElementById('cat_vaccine2').checked,
+                    catVaccine3: document.getElementById('cat_vaccine3').checked,
+                    catVaccine4: document.getElementById('cat_vaccine4').checked,
+                    catVaccine5: document.getElementById('cat_vaccine5').checked,
+                    catVaccine6: document.getElementById('cat_vaccine6').checked,
+                    catVaccine7: document.getElementById('cat_vaccine7').checked,
+                };
+
+                try {
+                    const response = await fetch('http://localhost:5000/api/health-updates', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(formData),
+                    });
+
+                    if (response.ok) {
+                        alert('Data uploaded successfully.');
+                        document.getElementById('healthUpdateForm').reset();
+                    } else {
+                        alert('Error uploading data.');
+                    }
+                } catch (error) {
+                    alert('Error uploading data.');
+                }
+            });
+        </script>
+    </body>
+</html>

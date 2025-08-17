@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccination Reminder</title>
+    <link rel="stylesheet" href="../styles/store.css" />
+</head>
+<body>
+    <section class="header">
+        <a href="#"><img src="../uploads/logo.jpg" width="100px" height="100px" alt="Digital Pet Care Assistant Logo" /></a>
+        <nav class="navbar">
+            <a href="home.html"><i class="bx bxs-home"></i>Home</a>
+            <a href="login.html"><i class="bx bxs-login"></i>Login</a>
+            <a href="store.html"><i class="bx bxs-store"></i>Store</a>
+            <a href="services.html"><i class="bx bxs-dog"></i>Our services</a>
+            <a href="pet registration.html"><i class="bx bxs-aboutpet"></i>About Pet</a>
+            <a href="aboutus.html"><i class="bx bxs-whyus"></i>Why us</a>
+            <a href="accountsettings.html"><i class="bx bxs-settings"></i>Settings</a>
+        </nav>
+    </section>
+
+    <section class="reminder-form-section">
+        <h1>Set Vaccination Reminder</h1>
+        <form id="reminderForm">
+            <label for="email">Your Email:</label><br />
+            <input type="email" id="email" name="email" required /><br />
+
+            <label for="petName">Pet Name:</label><br />
+            <input type="text" id="petName" name="petName" required /><br />
+
+            <label for="vaccinationDate">Vaccination Date:</label><br />
+            <input type="date" id="vaccinationDate" name="vaccinationDate" required /><br />
+
+            <button type="submit" class="btn">Set Reminder</button>
+        </form>
+        <div id="message"></div>
+    </section>
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="store.html"><i class="fas fa-angle-right"></i>Store</a>
+                <a href="pet registration.html"><i class="fas fa-angle-right"></i>About Pet</a>
+                <a href="accountsettings.html"><i class="fas fa-angle-right"></i>Settings</a>
+                <a href="feedback.html"><i class="fas fa-angle-right"></i>Feedback</a>
+                <a href="services.html"><i class="fas fa-angle-right"></i>Services</a>
+                <a href="aboutus.html"><i class="fas fa-angle-right"></i>Why Us</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i>Ask Question</a>
+                <a href="aboutus.html"><i class="fas fa-angle-right"></i>About Us</a>
+                <a href="privacypolicy.html"><i class="fas fa-angle-right"></i>Privacy Policy</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Terms of Use</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+122-675363563</a>
+                <a href="#"><i class="fas fa-phone"></i>+111-435627827</a>
+                <a href="#"><i class="fas fa-envelope"></i>shashika@gmail.com</a>
+                <a href="#"><i class="fas fa-map"></i>katunayaka, Sri Lanka</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="credit">Created By <span>Digital Pet Care Assistant</span> | All rights reserved</div>
+    </section>
+
+    <script>
+        document.getElementById('reminderForm').addEventListener('submit', async function (e) {
+            e.preventDefault();
+            const email = document.getElementById('email').value;
+            const petName = document.getElementById('petName').value;
+            const vaccinationDate = document.getElementById('vaccinationDate').value;
+
+            const response = await fetch('http://localhost:5000/api/reminders', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email, petName, vaccinationDate }),
+            });
+
+            const result = await response.json();
+            const messageDiv = document.getElementById('message');
+            if (response.ok) {
+                messageDiv.style.color = 'green';
+                messageDiv.textContent = result.message;
+                this.reset();
+            } else {
+                messageDiv.style.color = 'red';
+                messageDiv.textContent = result.message || 'Failed to set reminder.';
+            }
+        });
+    </script>
+</body>
+</html>

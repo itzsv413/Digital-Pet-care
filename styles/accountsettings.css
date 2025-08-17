@@ -1,0 +1,321 @@
+/* IMPORTING GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,800;1,800;1,900&display=swap');
+
+
+
+/* INITIALIZATIONS */
+
+:root {
+    --main-color: #8e44ad;
+    --black:#222;
+    --white:#fff;
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-dg:rgba(0,0,0, .7);
+    --light-dg:#eee;
+    --border: .1rem solid var(var(--black));
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0, .1);
+    --text-shadow:0 .5rem 3rem rgba(0,0,0, .3);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+
+/* SCROLLBAR */
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: #222;
+}
+html::-webkit-scrollbar-thumb {
+    background-color:black;
+}
+
+section {
+    padding: 5rem 10%;
+}
+
+
+
+/* FADE IN ANIMATION */
+
+@keyframes fadeIN {
+    0% {
+        transform: scale(05);
+        opacity: 0;
+    }
+}
+
+
+
+/* BUTTONS */
+
+button {
+    height: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* HEADER */
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: var(--white);
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: var(--box-shadow);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header > a > img {
+    width: auto;
+}
+
+.header > .logo {
+    font-size: 1.8rem;
+    font-style: italic;
+    margin-left: 2rem;
+    color: var(--black);
+}
+
+.header > .navbar > a {
+    font-size: 1rem;
+    margin-left: 2.8rem;
+    color: var(--black);
+}
+
+.header > .navbar > a:hover {
+    color: var(--main-color);
+}
+
+.header > #menu-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+}
+
+
+
+/* PROFILE PICTURE */
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.profile-picture > img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* line breaks (after profile picture and account settings) */
+hr {
+    color: rgb(202, 202, 202);
+    border-width: 1px;
+    border-style: solid;
+    margin: 2rem 6rem 2rem 6rem;
+}
+
+
+
+/* ACCOUNT INFORMATION */
+
+form {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+}
+
+form > div {
+    width: 28rem;
+}
+
+form > div > h2 {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+form > div > .field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    padding-left: 0;
+}
+
+form > div > .field > input {
+    float: right;
+    background-color: #dbdbdb;
+    padding: 0.8rem;
+    width: 16rem;
+}
+
+form > div > .field > textarea {
+    float: right;
+    background-color: #dbdbdb;
+    padding: 0.8rem;
+    width: 16rem;
+}
+
+/* form > div > #save-changes {
+    float: right;
+    bottom: 0;
+} */
+
+.action-buttons {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* general button styling is available at line 66 */
+
+.action-buttons > #delete-account:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+.footer > {
+    background: url(image1/pb.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 0.2rem;
+}
+
+/* FOOTER > BOX CONTAINER */
+
+.footer > .box-container {
+    display: flex;
+    gap: 10rem;
+}
+
+.footer > .box-container > .box > h3 {
+    color: var(--black);
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+}
+
+.footer > .box-container > .box > a {
+    color: black;
+    font-size: 0.8rem;
+    padding-bottom: 0.4rem;
+    display: block;
+}
+
+.footer > .box-container > .box > a > i {
+    color: lightblue;
+    padding-right: 2rem;
+    transition: 2s linear;
+}
+
+.footer > .box-container > .box > a:hover > i {
+    padding-right: 2rem;
+}
+
+/* FOOTER > CREDIT */
+
+.footer > .credit {
+    text-align:center;
+    padding-top: 3rem;
+    margin-top: 3rem;
+    border-top: 0.2rem solid var(--light-white);
+    font-size: 0.8rem;
+    color: var(--black);
+}
+
+
+
+/* MEDIA QUERIES FOR MOBILE RESPONSIVITY */
+
+@media (max-width:1200px) {
+    section {
+        padding: 3rem 5%;
+    }
+}
+
+@media (max-width:991px) {
+    html {
+        font-size: 75%;
+    }
+
+    section {
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width:760px) {
+    #menu-btn {
+        display: inline-block;
+    }
+
+    .header .navbar {
+        position: absolute;
+        top:99%;
+        left: 0;
+        right: 0;
+        background-color: var(--white);
+        border-top: var(--border);
+        padding: 2rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar .active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a {
+        display: block;
+        margin: 2rem;
+        text-align: center;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 50%;
+    }
+    .heading-title {
+        font-size: 3.5rem;
+    }
+}
